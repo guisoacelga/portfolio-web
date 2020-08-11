@@ -1,0 +1,127 @@
+#services-section {
+    padding: 80px 15px;
+}
+
+#services-section .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#services-section .title .circle {
+    background: #eefeff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+}
+
+#services-section .title h1 {
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #16171c;
+    z-index: 1;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#services-section .services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#services-section .services-container .box{
+    background: rgba(255, 255, 255, 0);
+    transition: all .4s ease-in-out;
+    padding: 40px;
+    cursor: pointer;
+}
+
+#services-section .services-container .box:hover{
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 10px 40px 74px 24px rgba(0,0,0,0.08);
+    -moz-box-shadow: 10px 40px 74px 24px rgba(0,0,0,0.08);
+    box-shadow: 10px 40px 74px 24px rgba(0,0,0,0.08);
+
+}
+
+#services-section .services-container .box .fas{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#services-section .services-container .box h5{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+#services-section .services-container .box h4{
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+#services-section .services-container .box p{
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #b3b3b3;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#services-section .services-container .box.blue{
+    border-bottom: 2px solid #52b8ff;
+}
+#services-section .services-container .box.blue .date{
+    color: #52b7ff;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    padding: 5px 0;
+}
+
+#services-section .services-container .box.red{
+    border-bottom: 2px solid #ff5253;
+}
+#services-section .services-container .box.red .date{
+    color: #52b7ff;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    padding: 5px 0;
+}
+
+#services-section .services-container .box.yellow{
+    border-bottom: 2px solid #ffc853;
+}
+#services-section .services-container .box.yellow .date{
+    color: #52b7ff;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    padding: 5px 0;
+}
+
+
+
+
+
