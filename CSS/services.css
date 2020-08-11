@@ -42,7 +42,6 @@
     background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
     padding: 40px;
-    cursor: pointer;
 }
 
 #services-section .services-container .box:hover{
