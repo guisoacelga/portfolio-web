@@ -72,3 +72,26 @@
     height: 700px;
     margin: 0 auto;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+  #top .container{
+    padding: 0 0 80px;
+  }
+
+  #top .img .background-img{
+    height: 100vh;
+  }
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+  #top .container{
+    padding: 0 0 80px;
+  }
+  #top .info .blue-square{
+    display: none;
+  }
+  #top .img .background-img{
+    height: 100vh;
+  }
+}
