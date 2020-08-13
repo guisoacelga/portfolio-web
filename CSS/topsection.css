@@ -8,9 +8,11 @@
 #top .info {
     padding: 15px;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
 }
-
-
 
 #top .info h1 {
     position: relative;
@@ -20,9 +22,11 @@
     color: #16171b;
     margin-bottom: 2rem;
     z-index: 1;
+    
 }
 
 #top .info p {
+    
     position: relative;
     color: #919191;
     text-transform: capitalize;
