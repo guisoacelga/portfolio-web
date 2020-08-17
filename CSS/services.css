@@ -13,7 +13,7 @@
 }
 
 #services-section .title .circle {
-    background: #eefeff;
+    background: #e0fdff;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -52,24 +52,20 @@
 
 }
 
-#services-section .services-container .box .fas{
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
 #services-section .services-container .box h5{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 0.5rem;
+  
 }
 #services-section .services-container .box h4{
-    font-size: 0.9rem;
+    font-size: .9rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
+    line-height: 1.2;
+  
 }
 
 #services-section .services-container .box p{
@@ -83,6 +79,9 @@
 
 #services-section .services-container .box.blue{
     border-bottom: 2px solid #52b8ff;
+    display: grid;
+    grid-template-rows: 30px 40px 45px 200px;
+    grid-gap: 10px;
 }
 #services-section .services-container .box.blue .date{
     color: #52b7ff;
@@ -96,6 +95,9 @@
 
 #services-section .services-container .box.red{
     border-bottom: 2px solid #ff5253;
+    display: grid;
+    grid-template-rows: 30px 40px 45px 200px;
+    grid-gap: 10px;
 }
 #services-section .services-container .box.red .date{
     color: #52b7ff;
@@ -109,6 +111,9 @@
 
 #services-section .services-container .box.yellow{
     border-bottom: 2px solid #ffc853;
+    display: grid;
+    grid-template-rows: 30px 40px 45px 200px;
+    grid-gap: 10px;
 }
 #services-section .services-container .box.yellow .date{
     color: #52b7ff;
