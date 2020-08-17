@@ -140,7 +140,7 @@ header .menu-btn {
     display: flex;
   }
   header .logo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .mobile-menu {
     display: flex;
@@ -151,3 +151,4 @@ header .menu-btn {
   #backdrop {
     display: none !important;
   }
+}

@@ -21,6 +21,7 @@
     font-weight: 700;
     color: #16171b;
     margin-bottom: 2rem;
+    padding-top: 15px;
     z-index: 1;
     
 }
@@ -77,6 +78,62 @@
     margin: 0 auto;
 }
 
+#top .about_skills {
+  display: grid;
+  grid-template-rows: 70px;
+}
+
+#top .about_skills .logos {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+} 
+
+#top .about_skills .logos .logos-box.img1{
+  background: url('../img/html_logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 50px;
+  height: 70px;
+  
+}
+
+#top .about_skills .logos .logos-box.img2{
+  background: url('../img/css_logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 50px;
+  height: 70px;
+}
+
+#top .about_skills .logos .logos-box.img3{
+  background: url('../img/js_logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 50px;
+  height: 70px;
+  
+}
+
+#top .about_skills .logos .logos-box.img4{
+  background: url('../img/node_logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 50px;
+  height: 70px;
+ 
+}
+
 /* Tablets */
 @media only screen and (max-width: 960px){
   #top .container{
@@ -92,10 +149,48 @@
   #top .container{
     padding: 0 0 80px;
   }
+  #top .info h1 {
+    align-content: end;
+    margin: 0 0 10px;
+    }
+  #top .info p {
+    align-content: end;
+    margin: 0 0 15px;
+    font-size: 1.2rem;
+  }
+
   #top .info .blue-square{
     display: none;
   }
   #top .img .background-img{
     height: 100vh;
   }
+
+  #top .about_skills {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 70px 70px;
+  }
+
+  #top .about_skills .logos .logos-box.img1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  #top .about_skills .logos .logos-box.img2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  #top .about_skills .logos .logos-box.img3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  #top .about_skills .logos .logos-box.img4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+
 }
