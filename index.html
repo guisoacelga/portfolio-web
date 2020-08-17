@@ -10,7 +10,6 @@
     <title>Web Portfolio</title>
 </head>
 
-
 <body>
     <header>
         <div class="logo">
@@ -18,6 +17,7 @@
         </div>
         <div class="header-menu">
             <a href="index.html">Home</a>
+            <a href="index.html#about-section">About me</a>
             <a href="index.html#services-section">Work Experience</a>
             <a href="index.html#portfolio-section">Portfolio</a>
         </div>
@@ -25,6 +25,13 @@
             <i class="fas fa-bars"></i>
         </div>
     </header>
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#about-section">About me</a>
+        <a href="index.html#services-section">Work Experience</a>
+        <a href="index.html#portfolio-section">Portfolio</a>
+    </div>
+    <div id="backdrop"></div>
     <section id="top">
         <div class="container">
             <div class="info">
@@ -34,15 +41,38 @@
                     Violeta Cautín Epifani
                 </h1>
                 <p>Self-taught Web Developer</p>
-               
+
                 <p> <a href="https://www.linkedin.com/in/vcautin/">
                         <i class="fab fa-linkedin"></i>
-                    </a></p>                
+                    </a></p>
             </div>
             <div class="img">
                 <div class="background-img"></img></div>
             </div>
         </div>
+    </section>
+    <section id="about-section">
+        <div class="container">
+            <div class="title">
+                <div class="triangle"></div>
+                <h1>About</h1>
+            </div>
+            <div class="about-container">
+                <h2> Some facts about me:</h2>
+                <ul class="bio-facts">
+                    <li>
+                        Self-taught web developer interested in intuitive web designing.
+                    </li>
+                    <li>
+                        Agile is my mindset. Scrum is my last name.
+                    </li>
+                    <li>
+                        Born and raised in Chile. Recently landed in Austria.
+                    </li>
+                    <li>
+                        Current mission: Learn German!
+                    </li>
+                </ul>
     </section>
     <section id="services-section">
         <div class="container">
@@ -52,37 +82,64 @@
             </div>
             <div class="services-container">
                 <div class="box blue">
-                    <h5>Summer Intern</h5>
-                    <h4>Semantic Web Company</h4>
-                    <span class="date">August 2019 - September 2019</span>
-                    <span class="date">Vienna, Austria</span>
-                    <p>Conducting meetings with project leaders and marketing experts to
-                        distill information about projects for documentation reasons.
-                    </p>
-                    <p>Updating documentation and creating templates for research
-                        projects (Confluence).</p>
+                    <div class="card-title">
+                        <h5>Summer Intern</h5>
+                    </div>
+                    <div class="card-subtitle">
+                        <h4>Semantic Web Company</h4>
+                    </div>
+
+                    <div class="card-date">
+                        <span class="date">August 2019 - September 2019</span>
+                        <span class="date">Vienna, Austria</span>
+                    </div>
+                    <div class="card-description">
+                        <p>Conducting meetings with project leaders to
+                            distill information about projects for documentation reasons.
+                        </p>
+                        <p>Updating documentation and creating templates for research
+                            projects.</p>
+                    </div>
+
                 </div>
                 <div class="box red">
-                    <h5>Scrum Master</h5>
-                    <h4>Wirecard</h4>
-                    <span class="date">June 2020 - July 2020</span>
-                    <span class="date">Graz, Austria</span>
-                    <p>Responsible for managing the Scrum process with two frontend development teams.
-                    </p>
-                    <p>
-                        Extensive use of Jira and Confluence for managing daily work, as
-                        well as different apps for remote collaboration.</p>
+                    <div class="card-title">
+                        <h5>Scrum Master</h5>
+                    </div>
+
+                    <div class="card-subtitle">
+                        <h4>Wirecard</h4>
+                    </div>
+
+                    <div class="card-date">
+                        <span class="date">June 2020 - July 2020</span>
+                        <span class="date">Graz, Austria</span>
+                    </div>
+                    <div class="card-description">
+                        <p>Responsible for managing the Scrum process with two frontend development teams.
+                        </p>
+                        <p>
+                            Extensive use of Jira and Confluence for managing daily work, as
+                            well as different apps for remote collaboration.</p>
+                    </div>
                 </div>
                 <div class="box yellow">
-                    <h5>Freelance Web Developer</h5>
-                    <h4>Independent</h4>
-                    <span class="date">Present</span>
-                    <span class="date">Graz, Austria</span>
-
-                    <p>While looking for a position to apply my knowledge of web development, I am working in different
-                        personal projects. Specially interested in learning by doing.
-                    </p>
-                    <p>Second Mission: Learn German!</p>
+                    <div class="card-title">
+                        <h5>Web Developer</h5>
+                    </div>
+                    <div class="card-subtitle">
+                        <h4>Independent</h4>
+                    </div>
+                    <div class="card-date">
+                        <span class="date">Present</span>
+                        <span class="date">Graz, Austria</span>
+                    </div>
+                    <div class="card-description">
+                        <p>While looking for a position to apply my knowledge of web development, I am working in
+                            different
+                            personal projects. Specially interested in learning by doing.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
