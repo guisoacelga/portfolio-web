@@ -83,7 +83,7 @@
 
 #top-section .about_skills .logos {
   display: grid;
-  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-columns: 70px 70px 70px;
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
@@ -119,15 +119,7 @@
   height: 70px;
 }
 
-#top-section .about_skills .logos .logos-box.img4 {
-  background: url('../img/node_logo.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  max-width: 50px;
-  height: 70px;
-}
+
 
 /* Tablets */
 
